@@ -1,0 +1,743 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header1{
+    height: auto;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 1.1em;
+
+}
+
+.header1 ul li{
+    list-style: none;
+    display: inline;
+    padding: 0.5%;
+    position: relative;
+}
+.header1 ul li a::after{
+    content: '';
+    border-radius: 100px;
+    width: 0%;
+    height: 2px;
+    display: block;
+    background: red;
+    margin: auto;
+    transition: 0.5s;
+}
+.header1 ul li  :hover::after{
+width: 100%;
+}
+.header1 a{
+    color: black;
+    padding: 0.5em;
+    text-decoration: none;
+    display: inline-block;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.main_img{
+    height: 700px; 
+    width: 700px;
+    margin: 0px;
+    flex-grow: 4;
+}
+.main_text{
+    flex-grow: 6;
+}
+
+.btn-main{
+    margin:.5em;
+    text-transform: uppercase;
+    color: #fff!important;
+    border-color: #a50034!important;
+    background: #a50034!important;
+    border-radius: .3em;
+    padding: 13px 29px 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.buy{
+    display: flex;
+    flex-wrap: wrap;
+}
+.buy_img{
+    float: right;
+    flex-grow: 6;
+    height:auto;
+    margin-top: 0;
+    border-radius: 10px;
+}
+.stores{
+    margin: 10px 0 40px;
+    float: left;
+    flex-grow: 6;
+}
+.stores a{
+    text-decoration: none;
+    color: black;
+}
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.67em;
+    cursor: pointer;
+}
+
+.photoSt1{
+    max-width: 1000px;
+    max-height: auto;
+float: left;
+}
+.phonesComp{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.compTitle{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.phoneCompImg{
+    height: 300px;
+}
+table{
+    vertical-align: baseline;
+    display: table;
+    border-collapse: separate;
+    text-indent: initial;
+    border-top: 5px solid #eee;
+    width: 100%;
+    padding: 1px;
+    }
+
+    tbody {
+        display: table-row-group;
+        vertical-align: middle;
+    }
+table th{
+    text-transform: uppercase;
+    width: 90px;}
+td{
+    border-left: 1px solid #ddd;
+    line-height: 16px;
+    display: table-cell;
+    border-bottom: 1px solid #f0f0f0;    
+}
+.title{
+    font-weight: 700;
+    width: 110px;
+    text-align: left;
+    word-break: normal;
+}
+.info{
+    width: 290px;
+}
+br {
+content: "";
+display: block;
+right: 20px;
+width: calc(100% );
+position: relative;
+left: -10px;
+border-top: 1px solid #f0f0f0;
+margin: 2px 0;
+line-height: 23px;
+}
+.comment{
+    padding: 20px;
+    margin-bottom: 4px;
+    border-radius: 10px;
+    border: gray;
+}
+
+.contact{
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-around;
+}
+.rewiewPage{
+    display: flex;
+    flex-wrap: wrap;
+}
+.userReview{
+    flex-grow: 7;
+}
+.reviews{
+    flex-grow:3;
+}
+.textField{
+width: 70%;
+height: 100px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+.column {
+    flex: 23%;
+    max-width: 23%;
+    padding: 0 4px;
+  }
+  
+.column img {
+    width: 100%;
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+ .slide1{
+    background-image: url("..\\img\\Features\\DSC_0340.jpg");
+    background-position: center ; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    padding: 50px 0 0 100px;    
+}
+.slide1 h2{
+    padding: 0 30% 0 5%;
+    font-size: 30px;
+}
+.slide1 p{
+width: 33%;
+font-size: 20px;
+}
+.slide2{
+    background-image: url("..\\img\\Features\\FirstPhoto.jpg");
+    background-position: center ; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    padding: 50px 0 0 100px;    
+}
+.slide2 h2{
+    color: linen;
+    padding: 0 30% 0 5%;
+    font-size: 30px;
+}
+.slide2 p{
+    color: linen;
+width: 33%;
+font-size: 20px;
+}
+.slide3{
+    background-image: url("..\\img\\Features\\DSC_0294.jpg");
+    background-position: center ; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    padding: 50px 0 0 100px;    
+}
+.slide3 h2{
+    padding: 0 30% 0 5%;
+    font-size: 30px;
+}
+.slide3 p{
+width: 33%;
+font-size: 20px;
+}
+.slide4{
+    background-image: url("..\\img\\Features\\DSC_0489.jpg");
+    background-position: center ; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    padding: 50px 0 0 100px;    
+}
+.slide4 h2{
+    width: 33%;
+    color: linen;
+    padding: 0 30% 0 5%;
+    font-size: 30px;
+}
+.slide4 p{
+    color: linen;
+width: 33%;
+font-size: 20px;
+}
+.slide5{
+    background-image: url("..\\img\\Features\\DSC_0510.jpg");
+    background-position: center ; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    padding: 50px 0 0 100px;    
+}
+.slide5 h2{
+    width: 33%;
+    color: linen;
+    padding: 0 30% 0 5%;
+    font-size: 30px;
+}
+.slide5 p{
+    color: linen;
+width: 33%;
+font-size: 20px;
+}
+.slide6{
+    background-image: url("..\\img\\Features\\DSC_0466.jpg");
+    background-position: center ; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    padding: 50px 0 0 100px;    
+}
+.slide6 h2{
+    width: 33%;
+    padding: 0 30% 0 5%;
+    font-size: 30px;
+}
+.slide6 p{
+width: 33%;
+font-size: 20px;
+}
+.slide7{
+    background-image: url("..\\img\\Features\\DSC_0258.jpg");
+    background-position: center ; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    padding: 50px 0 0 100px;    
+}
+.slide7 h2{
+    width: 33%;
+    /* color: linen; */
+    padding: 0 30% 0 5%;
+    font-size: 30px;
+    /* float: right; */
+}
+.slide7 p{
+    /* color: linen; */
+    /* float: right; */
+width: 33%;
+background-color: blanchedalmond;
+font-size: 20px;
+}
+.slide8{
+    background-image: url("..\\img\\Features\\DSC_0553.jpg");
+    background-position: center ; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    padding: 50px 0 0 100px;    
+}
+.slide8 h2{
+    align-items: center;
+    width: 33%;
+    padding: 0 30% 0 5%;
+    font-size: 30px;
+}
+.slide8 p{
+    text-align: center;
+width: 33%;
+font-size: 20px;
+}
+.slide9{
+    background-image: url("..\\img\\Features\\DSC_0227.jpg");
+    background-position: center ; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    padding: 50px 0 0 100px;    
+}
+.slide9 h2{
+    width: 33%;
+    padding: 0 30% 0 5%;
+    font-size: 30px;
+    color: linen;
+    float: right;
+}
+.slide9 p{
+width: 33%;
+font-size: 20px;
+color: linen;
+float: right;
+}
+.slide10{
+    background-image: url("..\\img\\Features\\DSC_0313.jpg");
+    background-position: center ; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    padding: 50px 0 0 100px;    
+}
+.slide10 h2{
+    color: linen;
+    width: 33%;
+    padding: 0 30% 0 5%;
+    float: right;
+    font-size: 30px;
+}
+.slide10 p{
+float: right;
+color: linen;
+width: 33%;
+font-size: 20px;
+}
+textarea{
+    width: 400px;
+    height: 100px;
+    resize: none;
+    background-color: #fff;
+}
+
+
+
+  @media only screen and (max-width: 600px) {
+  *{
+    font-family: 'Montserrat', sans-serif;
+}
+textarea{
+    width: 300px;
+    height: 80px;
+    resize: none;
+    background-color: #fff;
+}
+.header1{
+    height: auto;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 1.1em;
+
+}
+
+.header1 ul li{
+    list-style: none;
+    display: inline;
+    padding: 0.5%;
+    position: relative;
+}
+.header1 ul li a::after{
+    content: '';
+    border-radius: 100px;
+    width: 0%;
+    height: 2px;
+    display: block;
+    background: red;
+    margin: auto;
+    transition: 0.5s;
+}
+.header1 ul li  :hover::after{
+width: 100%;
+}
+.header1 a{
+    color: black;
+    padding: 0.5em;
+    text-decoration: none;
+    display: inline-block;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.main_img{
+    height: 700px; 
+    width: 700px;
+    margin: 0px;
+    flex-grow: 4;
+}
+.main_text{
+    flex-grow: 6;
+}
+
+.btn-main{
+    margin:.5em;
+    text-transform: uppercase;
+    color: #fff!important;
+    border-color: #a50034!important;
+    background: #a50034!important;
+    border-radius: .3em;
+    padding: 13px 29px 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.buy{
+    display: flex;
+    flex-wrap: wrap;
+}
+.buy_img{
+    float: right;
+    width: 300px;
+    height:auto;
+    margin-top: 0;
+    border-radius: 10px;
+}
+.stores{
+    margin: 10px 0 40px;
+    float: left;
+    
+}
+.stores a{
+    text-decoration: none;
+    color: black;
+}
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.67em;
+    cursor: pointer;
+}
+
+.photoSt1{
+    max-width: 1000px;
+    max-height: auto;
+float: left;
+}
+
+.phoneCompImg{
+    height: 200px;
+}
+
+
+.contact{
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-around;
+}
+.rewiewPage{
+    display: flex;
+    flex-wrap: wrap;
+}
+.userReview{
+    flex-grow: 7;
+}
+.reviews{
+    flex-grow:3;
+}
+.textField{
+width: 70%;
+height: 50px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+.column {
+    flex: 45%;
+    max-width: 45%;
+    padding: 0 4px;
+  }
+  
+.column img {
+    width: 100%;
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+  .slide1{
+    background-image: url("..\\img\\Features\\DSC_0340.jpg");
+    background-position: center ; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    padding: 50px 0 0 100px;    
+}
+.slide1 h2{
+    padding: 0 30% 0 5%;
+    font-size: 30px;
+}
+.slide1 p{
+width: 50%;
+font-size: 20px;
+float: right;
+}
+.slide2{
+    background-image: url("..\\img\\Features\\FirstPhoto.jpg");
+    background-position: center ; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    padding: 50px 0 0 100px;    
+}
+.slide2 h2{
+    color: linen;
+    padding: 0 30% 0 5%;
+    font-size: 30px;
+}
+.slide2 p{
+    color: linen;
+width: 50%;
+font-size: 20px;
+}
+.slide3{
+    background-image: url("..\\img\\Features\\DSC_0294.jpg");
+    background-position: center ; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    padding: 50px 0 0 100px;    
+}
+.slide3 h2{
+    padding: 0 30% 0 5%;
+    font-size: 30px;
+}
+.slide3 p{
+width: 50%;
+font-size: 20px;
+}
+.slide4{
+    background-image: url("..\\img\\Features\\DSC_0489.jpg");
+    background-position: center ; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    padding: 50px 0 0 100px;    
+}
+.slide4 h2{
+    width: 50%;
+    color: linen;
+    padding: 0 30% 0 5%;
+    font-size: 30px;
+}
+.slide4 p{
+    color: linen;
+width: 50%;
+font-size: 20px;
+}
+.slide5{
+    background-image: url("..\\img\\Features\\DSC_0510.jpg");
+    background-position: center ; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    padding: 50px 0 0 100px;    
+}
+.slide5 h2{
+    width: 33%;
+    color: linen;
+    padding: 0 30% 0 5%;
+    font-size: 30px;
+}
+.slide5 p{
+    color: linen;
+width: 33%;
+font-size: 20px;
+}
+.slide6{
+    background-image: url("..\\img\\Features\\DSC_0466.jpg");
+    background-position: center ; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    padding: 50px 0 0 100px;    
+}
+.slide6 h2{
+    width: 33%;
+    padding: 0 30% 0 5%;
+    font-size: 30px;
+}
+.slide6 p{
+width: 33%;
+font-size: 20px;
+}
+.slide7{
+    background-image: url("..\\img\\Features\\DSC_0258.jpg");
+    background-position: center ; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    padding: 50px 0 0 100px;    
+}
+.slide7 h2{
+    /* color: linen; */
+    background-color: blanchedalmond;
+
+    padding: 0 30% 0 5%;
+    font-size: 30px;
+    /* float: right; */
+}
+.slide7 p{
+    /* color: linen; */
+    /* float: right; */
+    background-color: blanchedalmond;
+font-size: 20px;
+}
+.slide8{
+    background-image: url("..\\img\\Features\\DSC_0553.jpg");
+    background-position: center ; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    padding: 50px 0 0 100px;    
+}
+.slide8 h2{
+    align-items: center;
+    width: 33%;
+    padding: 0 30% 0 5%;
+    font-size: 30px;
+}
+.slide8 p{
+    text-align: center;
+width: 50%;
+font-size: 20px;
+}
+.slide9{
+    background-image: url("..\\img\\Features\\DSC_0227.jpg");
+    background-position: center ; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    padding: 50px 0 0 100px;    
+}
+.slide9 h2{
+    width: 33%;
+    padding: 0 30% 0 5%;
+    font-size: 30px;
+    color: linen;
+    float: right;
+}
+.slide9 p{
+width: 50%;
+font-size: 20px;
+color: linen;
+float: right;
+}
+.slide10{
+    background-image: url("..\\img\\Features\\DSC_0313.jpg");
+    background-position: center ; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    padding: 50px 0 0 100px;    
+}
+.slide10 h2{
+    color: linen;
+    width: 33%;
+    padding: 0 30% 0 5%;
+    float: right;
+    font-size: 30px;
+}
+.slide10 p{
+float: right;
+color: linen;
+width: 50%;
+font-size: 20px;
+}
+  }
